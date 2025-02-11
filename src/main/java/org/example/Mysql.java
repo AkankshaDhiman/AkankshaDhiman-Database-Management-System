@@ -44,7 +44,7 @@ class Mysql {
             System.out.println("Data inserted successfully!");
 
 
-            //This part of code display the inserted table data...
+            //display the inserted table data...
 
             sql = "SELECT * FROM emp";
             ResultSet rs1 = stmt.executeQuery(sql);
